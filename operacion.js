@@ -3,5 +3,6 @@ function suma(){
     var num2=4;
     var suma=num1+num2;
     alert('Resultado: '+ suma);
+
     console.log(suma);
 }
