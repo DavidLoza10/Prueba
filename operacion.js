@@ -7,7 +7,6 @@ function suma(){
     console.log(suma);
 }
 
-
 class persona{
     alto; ancho;
     constructor(alto,ancho){
@@ -26,6 +25,22 @@ function ress(){
     var rec=new persona(12,4);
 
     rec.Area();
+}
+
+class perro{
+    raza; edad;
+    constructor(raza,edad){
+        this.raza=raza;
+        this.edad=edad;
+    }
+
+    ladrar(){
+        alert('EL perro esta ladrando');
+    }
+
+    morder(){
+        alert('EL perro esta modiendo');
+    }
 }
 
 
