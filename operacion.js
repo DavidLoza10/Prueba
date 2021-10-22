@@ -6,7 +6,6 @@ function suma(){
 
     console.log(suma);
 }
-
 class persona{
     alto; ancho;
     constructor(alto,ancho){
