@@ -7,25 +7,23 @@ function suma(){
     console.log(suma);
 }
 
-
 class persona{
-    alto; ancho;
-    constructor(alto,ancho){
-        this.alto= alto;
-        this.ancho= ancho;
+    nombre; apellido;
+    constructor(nombre,apellido){
+        this.nombre= nombre;
+        this.apellido= apellido;
     }
 
-    Area(){
-        var area = this.alto * this.ancho;
-        console.log(area);
-        alert(area);
+    saltar(){
+        alert('La persona esta saltando');
+    }
+    comer(){
+        alert('La persona esta comiendo');
     }
 }
 
-function ress(){
-    var rec=new persona(12,4);
-
-    rec.Area();
+function acciones(){
+    var per=new persona('David','Loza');
+    per.comer();
+    per.saltar();
 }
-
-
