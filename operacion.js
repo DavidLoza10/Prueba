@@ -8,7 +8,7 @@ function suma(){
 }
 
 
-class persona{
+class cuadro{
     alto; ancho;
     constructor(alto,ancho){
         this.alto= alto;
@@ -23,9 +23,29 @@ class persona{
 }
 
 function ress(){
-    var rec=new persona(12,4);
+    var rec=new cuadro(12,4);
 
     rec.Area();
 }
 
+class lapiz{
+    tamano; marca;
+    constructor(tamano,marca){
+        this.marca=marca;
+        this.tamano=tamano;
+    }
 
+    color(){
+        alert('EL lapiz es de color rojo')
+    }
+
+    cantidad(){
+        alert('20 Lapices')
+    }
+}
+
+function lapices(){
+    var lap=new lapiz('grande','rotring');
+    lap.cantidad();
+    lap.color();
+}
