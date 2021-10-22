@@ -42,4 +42,11 @@ class perro{
     }
 }
 
+function accionPerro(){
+    var perr= new perro('Aleman','2años');
+    perr.morder();
+    perr.ladrar();
+}
+
+
 
